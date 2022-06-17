@@ -28,4 +28,5 @@ jobs:
           command: cp
           source: s3://ladi/ladi-labeled-images.tar.gz
           destination: .
+          aws_region: us-east-1
           flags: --no-sign-request
